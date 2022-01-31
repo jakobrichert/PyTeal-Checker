@@ -335,7 +335,7 @@ tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.4.1
+tensorflow==2.5.2
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
 terminado==0.12.1
