@@ -151,7 +151,7 @@ pathspec==0.7.0
 patsy==0.5.1
 pep8==1.7.1
 pickleshare==0.7.5
-pipenv==2021.5.29
+pipenv==2022.1.8
 pkginfo==1.7.0
 platformdirs==2.4.0
 pluggy==1.0.0
