@@ -1,5 +1,8 @@
 # PyTeal-Checker  
+![Screenshot from 2022-01-31 16-39-08](https://user-images.githubusercontent.com/16466966/151824723-47bcd47d-d808-47b4-81cd-5dfde0b6bc7c.png)
+
 A web app for the developer tooling bounty during the schelling point hackathon https://gitcoin.co/issue/algorandfoundation/grow-algorand/132/100027512
+You can access the website here https://jakobr21.eu.pythonanywhere.com/
 
 
 Uses a machine learning model to determine validity of PyTeal smart contract. 
@@ -19,3 +22,4 @@ I also thought it may be possible to expand on this and create  DAO that will wo
 
 #### WARNING DO NOT USE THIS AS A PRODUCTION TYPE SOFTWARE TO DETERMINE IF YOUR SMART CONTRACT IS SECURE ####
 PyTeal Checker does not take any liability for your smart contract 
+![Screenshot from 2022-01-31 16-39-08](https://user-images.githubusercontent.com/16466966/151824723-47bcd47d-d808-47b4-81cd-5dfde0b6bc7c.png)
