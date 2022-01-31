@@ -1,0 +1,199 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+	{% load static %}
+    
+	
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PyTeal Checker</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Jakob Richert" />
+	<!-- Favicon  -->
+	<style>
+		.header-hero-area.site-breadcrumb-header {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:2%;
+	position:relative;
+}
+
+.header-hero-area {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:10%;
+	position:relative;
+}
+
+
+
+
+
+</style>
+	
+	<link rel="shortcut icon" href="{% static 'mainapp/img/favicon.png' %}">
+	<!-- CSS File  -->
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/owl.theme.default.min.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/boxicons.min.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/magnific-popup.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/animate.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/meanmenu.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/splitting-cells.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/splitting.css' %}">
+  <link rel="stylesheet" type= "text/css" href="{% static 'mainapp/css/style.css' %}">
+  <link rel="stylesheet" type = "text/css" href="{% static 'mainapp/css/responsive.css' %}">
+	<!-- End CSS File  -->  
+    
+
+</head>
+<body>
+		
+
+			<div>	<!-- Main Menu Area -->
+				<center>
+					<h1><span style="color: #000000">Py</span></span><span style="color: #008080">Teal</span><span style="color: #000000">Checker </span></h1>	
+					</center>
+					
+					
+					<div class="main-menu d-flex align-items-center">
+						
+						<div class="menu ml-auto d-flex">
+							<nav class="navigation" id="mobile-menu">
+								<ul class="menu-list list-style-none mb-0">
+									
+									<li><a href='index' style="color:#000000">Home</a></li>
+									<li><a href='best' style="color:#000000">Best Practices</a></li>
+									<li><a href='about' style="color:#000000">About</a></li>
+						
+								
+									
+								
+								</ul>
+							</nav>
+							
+						
+						
+						<!-- Responsive Menu -->
+						<div class=""></div>
+					</div>
+					<div class="">
+						<span class="line line-1"></span>
+						<span class="line line-2"></span>
+						<span class="line line-3"></span>
+					</div> <!-- responsive menu icon -->
+				</div> <!-- end container -->
+			</div>	<!-- end main menu area -->
+	
+		
+		<div id="hero-slider-area" class="header-hero-area site-breadcrumb-header fix"> <!-- start header banner -->
+			
+			<!-- Start Breadcrumb
+			============================================= -->
+			
+			
+			<!-- End  Breadcrumb -->				
+		</div>
+		
+			<div ><!-- start contact area -->
+				
+					<div class="align-items-center "><!-- start row -->
+						<div class=""><!-- start col-6 -->
+						</div><!-- end col-6 -->
+						<div class=""><!-- start col-6 -->
+							<div class="text-center wow fadeInDown" data-wow-duration=".4s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.4s;margin-top: 50px">
+								<div class="form-title pt-30">
+									<h2 class="account_form_title"> <span class="span-color">TYPE IN YOUR SMART CONTRACT</h2>
+								</div>
+								<div class="row mt-5">
+									<div class="col-md-12">
+										   
+										<div class="account_form_area text-center">
+											<form method="post">
+												{% csrf_token %}
+												{{form}}
+												<button style="color: #008080;" type="submit">Check</button>
+												
+											</form>
+											
+											
+											 
+										</div>                          
+									</div>
+									<div class="">
+									</div>
+								</div>					
+							</div>
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				
+			</div><!-- end contact area -->
+			
+			<div id=""> <!-- start why area -->
+				<div> <!-- start container -->
+					<div class="row pt-100"> <!-- start row -->
+						<div class="col-md-3 col-sm-6 mb-30"> <!-- start col-3 -->
+							<div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s;">
+								<div>
+									<a href="https://github.com/jakobrichert"><img src="{% static 'mainapp/img/GitHub-Mark-64px.png' %}"></a>
+								</div>
+								
+							</div>
+						</div> <!-- end col-3 -->
+						<div class="col-md-3 col-sm-6 mb-30"> <!-- start col-3 -->
+							<div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s;">
+								<div>
+									<a href="https://discord.gg/algorand/"><img src="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"></a>
+								</div>
+								
+							</div>
+						</div> <!-- end col-3 -->
+						<div class="col-md-3 col-sm-6 mb-30"> <!-- start col-3 -->
+							<div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s;">
+								<div>
+									<a href="https://gitcoin.co/issue/algorandfoundation/grow-algorand/132/100027512"><img src="https://s.gitcoin.co/gitcoinco.svg"></a>
+								</div>
+							
+							</div>
+						</div> <!-- end col-3 -->
+						<div class="col-md-3 col-sm-6 mb-30"> <!-- start col-3 -->
+							<div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.9s;">
+								<div>
+									<a href="https://www.algorand.com/"><img src="{% static 'mainapp/img/favicon.png' %}"></a>
+								</div>
+								
+							</div>
+						</div> <!-- end col-3 -->
+					</div> <!-- end row -->
+				</div> <!-- end container -->
+			</div> <!-- end why area  -->
+	</div>
+			
+<!-- Start JS File -->	
+ <script src="{% static 'mainapp/js/main.js' %}"></script>
+ <script src="{% static 'mainapp/js/modernizr-3.8.0.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/jquery-3.6.0.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/bootstrap.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/popper.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/jquery.appear.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/owl.carousel.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/jquery.magnific-popup.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/jquery.waypoints.min.js' %}"></script> 
+ <script src="{% static 'mainapp/js/wow.js' %}"></script>  
+ <script src="{% static 'mainapp/js/splitting-animation.js' %}"></script>
+ <script src="{% static 'mainapp/js/splitting.min.js' %}"></script>
+ <script src="{% static 'mainapp/js/multi-countdown.js' %}"></script>
+ <script src="{% static 'mainapp/js/jquery.meanmenu.min.js' %}"></script>
+  <!-- End JS File --> 
+    
+</body>
+</html>

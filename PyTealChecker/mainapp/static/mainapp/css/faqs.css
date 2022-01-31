@@ -1,0 +1,35 @@
+.faq {
+  width: 80%;
+  border: 1px solid #222;
+}
+
+.item .question {
+  padding: 15px;
+  background: #C0392B;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item .question h4 {
+  margin: 0;
+}
+
+.item .question .bx.bx-minus {
+  display: none;
+}
+
+.item.jquery-accordion-active .bx.bx-minus {
+  display: block;
+}
+
+.item.jquery-accordion-active .bx.bx-plus {
+  display: none;
+}
+
+.item .answer {
+  padding: 15px;
+  display: none;
+}
