@@ -203,7 +203,7 @@ tomli==1.2.1
 tqdm==4.62.3
 traitlets==5.1.0
 transformers==3.5.1
-ujson==4.2.0
+ujson==5.1.0
 unicodecsv==0.14.1
 urllib3==1.26.6
 validators==0.18.2
